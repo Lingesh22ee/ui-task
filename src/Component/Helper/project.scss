@@ -1,0 +1,165 @@
+@import './variables.scss';
+//@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap');
+
+// *{
+//      background-color: #E5E5E5;
+// }
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color:  rgb(384, 251, 381);
+}
+.text-sm-start{
+    background-color: rgb(384, 251, 381);
+}
+.bg-section3{
+    background-color:rgb(384, 251, 381);
+}
+.icon-sec{
+    height: 35px;
+    width: 40px;
+    background-color: #FFFFFF;
+    border-color: solid 1px black;   
+}
+.icon-sec:hover{
+    background-color: $dark;
+}
+.bg-sec4{
+    background-color: rgb(326, 330, 245);
+}
+.rounded{
+    background-color: $dark;
+}
+
+.header{
+    color: $dark;
+    font-weight: 500;
+}
+
+.header1{
+    background-color: #F0DCC5;
+}
+
+a{
+    font: bold;
+}
+//footer
+.p-70{
+    padding: 70px;
+}
+.py-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.text-para{
+    color:#333333;
+}
+.list-unstyled{
+    padding-left: 0;
+    list-style: none;
+}
+.list-unstyled li a{
+    text-decoration: none;
+}
+.list-unstyled li a:hover{
+    text-decoration: underline;
+}
+.bg-transparent{
+    background-color: rgba(0,0,0,0);
+}
+.border-dark{
+    border-color: #343a40;
+}
+.border-end-0{
+    border-right: 0;
+}
+
+.overload{
+    position: absolute;
+    top: 60px;
+    right: 245px;
+    
+    &.right{
+        top: 100px;
+        left: 150px;
+    }
+}
+.icon-height{
+    height: 40px;
+}
+.card{
+    &.position-relative{
+        z-index: 2;
+    }
+    &.card-2{
+        &:hover{
+            background-color: $dark;
+            color: white;
+        }
+    }
+}
+.img-size{
+    height: 153px;
+    top: 103px;
+    left:0px;
+}
+
+.position-relative{
+    z-index: 2;
+}
+.bg-header{
+    background-color: $dark;
+}
+.cards:hover{
+    background-color: #ffffff;    
+}
+
+.custom-bg {
+    background: url("./images/Rectangle\ 486.png");
+    padding-top: 5rem;
+    width: 18rem;
+}
+.inner-bg {
+    background: url("./images/Rectangle 498.png");
+
+    
+    
+}
+
+.content {
+    &.card {
+        padding: 10px;
+        &:hover{
+            background: white;
+        }
+    }
+}
+
+
+.scroll-wrapper {
+    overflow-x: auto;
+    
+    .item {
+        margin: 10px 8px;
+        min-width: 21rem;
+        background: linear-gradient(358.27deg, rgba(100, 123, 100, 0.77) -118.86%, rgba(100, 123, 100, 0) 25.62%, rgba(100, 123, 100, 0) 98.53%),
+        linear-gradient(0deg, #FFFFFF, #FFFFFF);
+
+    }
+
+}
+.textarea-display{
+    resize: none;
+}
+
+.lorem{
+   position: relative;
+}
+.rig{  
+        top: -35px;
+        right: 360px;
+}
+.fix{
+    left:-20px;
+}
